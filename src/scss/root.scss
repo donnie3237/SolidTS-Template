@@ -1,13 +1,25 @@
 body {
   font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell,
   'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 main {
-  width: 25%;
-  margin: 0 auto;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
   border-radius: 1rem;
-  background: #f3f4f6;
+  background: #e405b4;
   padding: 1rem;
 }
 

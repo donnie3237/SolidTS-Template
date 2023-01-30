@@ -92,7 +92,7 @@ export default function Login() {
   });
 
   return (
-    <main>
+    <main class="flex">
       <h1>Login</h1>
       <Form>
         <input
