@@ -1,5 +1,5 @@
 {
-  "name": "solid-ts",
+  "name": "solid-ts-auth",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
