@@ -5,8 +5,8 @@ const Three: Component<{}> = (props) => {
   return <div class="max-size flex">
     <h1>Value is {count()}</h1>
     <div class="">
-    <button onClick={()=>setCount((prev)=> prev -1 )}>-</button>
-    <button onClick={()=>setCount((prev)=> prev +1)}>+</button>
+    <button class="btn" onClick={()=>setCount((prev)=> prev -1 )}>-</button>
+    <button class="btn" onClick={()=>setCount((prev)=> prev +1)}>+</button>
     </div>
   </div>;
 };

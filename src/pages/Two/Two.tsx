@@ -3,9 +3,9 @@ import { useStore } from "../../Global/state/zustand";
 
 const Two: Component<{}> = (props) => {
   
-  return <div>
-    <button onClick={() => useStore.setState((prev) => ({ bears: prev.bears + 1 }))}>
-        one up
+  return <div class="max-size flex">
+    <button class="btn" onClick={() => useStore.setState((prev) => ({ bears: prev.bears + 1 }))}>
+        UP VALUE PAGE1
     </button>
   </div>;
 };
