@@ -16,7 +16,6 @@ const MainRoute: Component<{}> = (props) => {
                 <Route path="/one" component={One} />
                 <Route path="/two" component={Two} />
                 <Route path="/three" component={Three} />
-                
             </Routes>
         </Router>
     </div>
