@@ -1,0 +1,1 @@
+export const ApiURL : string = import.meta.env.SERVER_URL
