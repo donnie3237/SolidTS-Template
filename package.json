@@ -24,7 +24,7 @@
   "dependencies": {
     "@solidjs/router": "^0.8.2",
     "axios": "^1.4.0",
-    "sass": "^1.62.1",
+    "sass": "^1.63.2",
     "solid-js": "^1.7.6",
     "solid-zustand": "^1.7.0"
   }
