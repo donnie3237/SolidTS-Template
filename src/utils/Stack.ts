@@ -3,18 +3,22 @@ import { Stack } from "../types/Main.type";
 export const stack:Stack[] = [
     {
         name:"Solid",
-        img:'/public/image/solid.png'
+        img:'/image/solid.png'
     },
     {
         name:"Vitest",
-        img:'/public/image/vitest.png'
+        img:'/image/vitest.png'
     },
     {
         name:"Zustand",
-        img:'/public/image/zustand.png'
+        img:'/image/zustand.png'
     },
     {
         name:"Sass",
-        img:'/public/image/sass.png'
+        img:'/image/sass.png'
+    },
+    {
+        name:"PWA",
+        img:'/image/pwa.png'
     }
 ]
