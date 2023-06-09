@@ -3,7 +3,6 @@ import { stack } from "../../utils/Stack";
 import './mainpage.scss'
 
 const MainPage: Component<{}> = (props) => {
-  
     return(
         <div class="main">
             <For each={stack}>{(results) =>
