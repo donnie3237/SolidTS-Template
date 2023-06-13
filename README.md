@@ -1,4 +1,4 @@
-# Astro + ReactJS for SSR in static site
+# Astro + SolidJS for SSR in static site
 
 ## 🚀 Project Structure
 
