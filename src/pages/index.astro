@@ -1,0 +1,19 @@
+---
+import Card from '../components/Card.astro';
+import Layout from '../layouts/Layout.astro';
+import { LProducts } from '../utils/LProduct';
+import Hello from '../components/Hello';
+---
+
+<Layout title="index">
+	<main>
+		<Card items={LProducts}/>
+	</main>
+</Layout>
+
+<style lang="scss">
+	main{
+		padding: 20px 0;
+		height: 100%;
+	}
+</style>

@@ -1,0 +1,32 @@
+---
+function closeCartBar(){
+    const CardBar = document.getElementById("bar") as HTMLElement;
+    CardBar.style.right = "-800px"
+}
+---
+<div class="bar" id="bar" click={closeCartBar}>
+    <div class="right">
+        <button>close</button>
+    </div>
+</div>
+
+<style lang="scss">
+    .bar{
+        width: 100vw;
+        min-height: 360px;
+        height: 100vh;
+        background-color: rgba(43, 43, 43, 0.8);
+        box-shadow: 0 0 10px black;
+        position: absolute;
+        right: 0;
+        z-index: 30;
+        top: 0;
+        .right{
+            background-color: rgb(255, 255, 255);
+            height: 100vh;
+            width: 400px;
+            position: absolute;
+            right: 0;
+        }
+    }
+</style> 

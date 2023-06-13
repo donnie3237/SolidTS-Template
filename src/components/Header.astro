@@ -1,0 +1,44 @@
+---
+
+---
+<div class="nav flex">
+    <strong> Hope U Enjoy :)</strong>
+</div>
+<div class="header">
+    <a href="/">Astro + Solid</a>
+    <a href="/one">one</a>
+    <a href="/two">two</a>
+</div>
+
+<style lang="scss">
+    .nav{
+        height: 30px;
+        width: 100vw;
+        background: linear-gradient( 90deg ,rgb(94, 94, 229), rgb(185, 7, 170));
+        color: white;
+    }
+    .header{
+        width: calc(100vw - 100px);
+        height: 80px;
+        border-bottom: 1px solid #b9b9b9;
+        justify-content:space-between;
+        display: flex;
+        align-items: center;
+        padding: 0 50px;
+        position: sticky;
+        background-color: white;
+        top: 0;
+        z-index: 20;
+        .cart{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+        a{  
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 2em;
+        }
+    }
+</style>
