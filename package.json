@@ -11,12 +11,13 @@
   },
   "dependencies": {
     "@astrojs/solid-js": "^2.2.0",
-    "@astrojs/vercel": "^3.4.0",
-    "astro": "^2.5.0",
-    "sass": "^1.62.1",
-    "solid-js": "^1.4.3"
+    "@astrojs/vercel": "^3.5.1",
+    "@vitest/ui": "^0.32.2",
+    "astro": "^2.7.1",
+    "sass": "^1.63.6",
+    "solid-js": "^1.7.7"
   },
   "devDependencies": {
-    "vitest": "^0.31.1"
+    "vitest": "^0.31.4"
   }
 }
