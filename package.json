@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/solid-js": "^2.2.0",
     "@astrojs/vercel": "^3.5.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@vitest/ui": "^0.32.2",
     "astro": "^2.7.1",
     "sass": "^1.63.6",
